@@ -1,0 +1,126 @@
+body {
+	/* background-color:black;
+	color: lightgreen; */
+}
+
+#navfooter {
+	/* border: solid #CCFFFF 3px; 
+	background: black; 
+
+	position: fixed; */
+}
+
+.hidden, a.hidden {
+	display:none;
+}
+
+/* UNCOMMENT THESE FOR fixed position cardset search -- TODO - ENABLE ON PHONE ORIENTATION UPRIGHT, disable otherwise
+/* #cardset-wrapper{
+    padding-top : 40px;
+}
+
+#cardset-wrapper form {
+    position : fixed;
+    top      : 58px;
+    left     : 15px;
+    width    : 100%;
+    z-index  : 2;
+}*/
+
+#notebooks {
+    padding-top : 44px;
+}
+
+#notebooks form {
+    position : fixed;
+    top      : 58px;
+    left     : 15px;
+    width    : 100%;
+    z-index  : 2;
+}
+
+#vert-spacer {
+	margin-bottom: 8em;
+}
+
+.showing-answer {
+	/* font-style: italic;
+	color: gray; */
+	border-bottom: solid 1px gray;
+}
+
+form #find {
+	width: 50%;
+}
+
+
+.question {
+	/*background-color: lightgray;
+	padding: .5em; */
+}
+
+.answer {
+	padding: 0;
+	margin: 0;
+}
+
+
+.nav-glyphish .ui-btn .ui-btn-inner {
+    padding-top: 50px !important;
+}
+
+/* http://stackoverflow.com/questions/6243871/glyphish-icons-display-in-jquery-mobile */
+.nav-glyphish .ui-btn .ui-icon { 
+	width: 30px!important;
+	height: 30px!important;
+	margin-left: -15px !important;
+	box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-webkit-border-radius: none !important;
+	border-radius: none !important; 
+}
+
+.prev .ui-icon { 
+    background: url(/themes/GlyphishPro/xtras/xtras-white/36-circle-west.png) 50% 50% no-repeat;
+}
+
+.flip .ui-icon { 
+    /* background: url(/themes/GlyphishPro/icons/icons-white/248-sign.png) 50% 50% no-repeat; 
+    background: url(/themes/GlyphishPro/icons/icons-white/12-eye@2x.png) 50% 50% no-repeat;*/
+    background: url(/themes/GlyphishPro/icons/icons-gray/165-glasses-3.png) 50% 50% no-repeat;
+}
+
+.next .ui-icon { 
+    background: url(/themes/GlyphishPro/xtras/xtras-gray/20-circle-east.png) 50% 50% no-repeat;
+}
+
+.play .ui-icon { 
+    background: url(/themes/GlyphishPro/xtras/xtras-gray/30-circle-play.png) 50% 50% no-repeat;
+}
+
+.edit .ui-icon { 
+    background: url(/themes/GlyphishPro/icons/icons-gray/216-compose.png) 50% 50% no-repeat;
+}
+
+.skip .ui-icon { 
+    background: url(/themes/GlyphishPro/xtras/xtras-gray/60-x.png) 50% 50% no-repeat;
+}
+
+.ui-li-desc {
+	white-space: normal;
+}
+
+.ui-collapsible h1 .ui-btn-text {
+	white-space:normal;
+}
+
+
+/* auto-size the images -- Sean TODO -- http://stackoverflow.com/questions/3029422/image-auto-resize-to-fit-div-container */
+.ui-collapsible-content img {
+	max-width:100%;
+	max-height:100%;
+
+    /* width  : 100%; 
+    height : auto; */
+}
